@@ -1,0 +1,87 @@
+@font-face {
+    font-family: Masquerade;
+    src: url(/Fontes/Masquerade\ \(1\).ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(https://wallpaperset.com/w/full/2/2/f/16790.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.box{
+    margin-top: 120px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+h1{
+    font-size: 99px;
+    font-family: Masquerade;
+    color: #0e0d0df1;
+    -webkit-text-stroke-width: 0.1px;
+    -webkit-text-stroke-color: #ce0505;
+
+}
+
+
+h2{
+    margin-top: 60px;
+    margin-bottom: 50px;
+    font-size: 70px;
+    font-family: Verdana, saserif;
+    color: #ffffff;
+    -webkit-text-stroke-width: 4px;
+    -webkit-text-stroke-color: #000000;
+
+
+}
+
+p{
+    font-size: 60px;
+}
+
+input{
+    font-size: 40px;
+    margin-bottom: 30px;
+    padding: 15px;
+    background-color: #000000;
+    color: #ff0000;
+    border: inset #ff0000 5px;
+}
+
+div #resp{
+    font-size: 54px;
+    color: #ff0000;
+    font-family:'Times New Roman', Times, serif;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #000000;
+}
+
+footer {
+    margin-top: 20px;
+    padding: 13px;
+    background-color: #000000;
+    text-align: center;
+    color: #ffffff;
+
+    
+}
+
+footer p{   
+    font-size: 30px;
+
+}
+
+footer a{
+    text-decoration: none;
+    color: #ff0000;
+}

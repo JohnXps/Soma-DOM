@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <link rel="icon" href="https://img.icons8.com/color/256/dungeons-and-dragons.png">
+    <link rel="stylesheet" href="estilo.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>D&D | Calculador de Dano</title>
+</head>
+
+<body>
+    <div class="box">
+
+        <h1>dungeons and dragons</h1>
+
+
+        <h2>Calculador de Dano</h2>
+
+        <input type="number" name="valor1" id="valor1"> 
+        <p>+</p>
+        <br>
+        <input type="number" name="valor2" id="valor2">
+        <input type="button" value="Somar" onclick="somar()">
+        <div id="resp">Dano causado</div>
+    </div>
+
+
+    <footer>
+        <p><a href="https://instagram.com/john__xps?igshid=ZDdkNTZiNTM=">@john__xps</a> | johnsnow.playstation@gmail.com </p>
+    </footer>
+
+
+
+
+    <script>
+
+        function somar() {
+            var v1 = window.document.getElementById('valor1');
+            var v2 = window.document.querySelector('input#valor2');
+            var resp = window.document.getElementById('resp');
+
+
+            var n1 = Number(v1.value);
+            var n2 = Number(v2.value);
+            var resultado = n1 + n2;
+
+            resp.innerHTML = `O dano causado foi ${n1} + ${n2} =  -${resultado} Hp. `
+        }
+
+
+
+    </script>
+
+
+</body>
+
+</html>
